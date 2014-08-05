@@ -1,0 +1,88 @@
+/* line 4, ../sass/compiled.sass */
+.page-wrapper {
+  font-family: Open Sans;
+}
+/* line 6, ../sass/compiled.sass */
+.page-wrapper div {
+  margin: 0;
+}
+
+/* line 10, ../sass/compiled.sass */
+.top-banner {
+  background-color: #353535;
+  padding: 0;
+  margin: 0;
+}
+/* line 14, ../sass/compiled.sass */
+.top-banner h1 {
+  text-align: center;
+  padding: 5px, 0, 0, 0;
+  color: white;
+}
+/* line 18, ../sass/compiled.sass */
+.top-banner h2 {
+  text-align: center;
+  color: white;
+}
+
+/* line 23, ../sass/compiled.sass */
+.nav-bar {
+  background: #353535;
+  width: 100%;
+  border: 0;
+  padding: 0;
+}
+/* line 28, ../sass/compiled.sass */
+.nav-bar li {
+  display: inline-block;
+  padding: 5px;
+  background: #f8c3ac;
+  border-radius: 5px;
+  color: white;
+  margin: 5px;
+}
+
+/* line 38, ../sass/compiled.sass */
+.main-stuff {
+  padding: 1em;
+  background: #cfe3cf;
+  width: 70%;
+  float: left;
+  border-radius: 10px;
+}
+@media only screen and (max-width: 500px) {
+  /* line 38, ../sass/compiled.sass */
+  .main-stuff {
+    float: none;
+    width: 100%;
+  }
+}
+/* line 47, ../sass/compiled.sass */
+.main-stuff .entry {
+  color: #353535;
+  padding: 5 px;
+  border-color: black;
+}
+
+/* line 55, ../sass/compiled.sass */
+.sidebar {
+  background: #cfe3cf;
+  border-radius: 10px;
+  float: right;
+  width: 20%;
+}
+/* line 56, ../sass/compiled.sass */
+.sidebar h3 {
+  text-align: center;
+}
+@media only screen and (max-width: 500px) {
+  /* line 55, ../sass/compiled.sass */
+  .sidebar {
+    float: none;
+    width: 100%;
+  }
+}
+/* line 66, ../sass/compiled.sass */
+.sidebar .links {
+  text-decoration: none;
+}
