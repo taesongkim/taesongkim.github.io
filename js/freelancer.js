@@ -18,17 +18,9 @@ $(function() {
 // Load images later
 
 $(function(){
-    $('a.launch-modal').on('click', function(){
-        // add loading image
-        $('.placeholder-div').html('<img src="loading.gif" />');
-
-        $('.load-later:not(.loaded)').attr('src', $(this).data('src')).on('load', function(){
-            $('.placeholder-div').remove();
-
-            $(this).addClass('loaded');
-        }); 
-    })
+    $('.load-later').attr('src', $(this).data('src'));
 });
+
 
 // Floating label headings for the contact form
 $(function() {
